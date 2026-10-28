@@ -23,3 +23,29 @@ Task 1 completed. Remaining tasks are in progress.
 Learning Outcome
 
 Learned how to observe packet numbers in Wireshark and understand the initial network traffic capture.
+
+Task 2: Identify TCP SYN Packets
+
+Objective
+
+Identify packets that initiate TCP connections using the SYN flag.
+
+Wireshark Filter
+
+tcp.flags.syn == 1
+
+Result
+
+Answer: 73 packets
+
+Analysis
+
+The Wireshark display filter was used to isolate TCP packets with the SYN flag set. These packets are associated with the initiation of TCP connections.
+
+Evidence
+
+Screenshot of the filtered Wireshark traffic.
+
+Status
+
+Completed.
