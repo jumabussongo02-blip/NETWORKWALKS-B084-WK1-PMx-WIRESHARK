@@ -49,3 +49,31 @@ Screenshot of the filtered Wireshark traffic.
 Status
 
 Completed.
+
+Task 3: Identify the Attacker's IP Address
+
+Objective
+
+Identify the IP address responsible for sending a large number of TCP SYN packets consecutively.
+
+Wireshark Filter
+
+tcp.flags.syn == 1
+
+Result
+
+Attacker's IP Address: "192.168.10.66"
+
+Analysis
+
+The network traffic was analyzed to identify the source IP address sending an unusually large number of TCP SYN packets in succession.
+
+The IP address "192.168.10.66" was identified as the suspected attacker based on the repeated SYN packet activity.
+
+Evidence
+
+Screenshot showing the repeated TCP SYN packets originating from "192.168.10.66".
+
+Status
+
+Completed.
