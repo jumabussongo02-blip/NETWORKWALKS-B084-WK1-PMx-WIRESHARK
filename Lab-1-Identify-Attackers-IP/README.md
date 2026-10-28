@@ -8,7 +8,7 @@ Task 1: Packet Capture
 
 Question: How many packets did Wireshark capture?
 
-Observation: The initial packet capture displayed packets numbered from 1 to 8.
+Observation: The initial packet capture displayed packets numbered from 1 to 309.
 
 Answer: 309 packets.
 
